@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 115vh;
+  margin: 0;
+  text-shadow: 0 0 10px black;
+  background-color: white;
+}
+
+.card .card1 {
+  border-color: white;
+  border: 1px solid #eeecec;
+  
+}
+
+.home {
+  font-family: Times New Roman;
+  text-align: center;
+  color: black;
+}
+
+img {
+  block-size: 100px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px white;
+  background-color: black;
+  margin-top: -75%;
+  position: relative;
+  align-items: center;
+}
+
+.card {
+  border-color: red;
+  box-shadow: 0 0 50px black;
+  text-shadow: 0 0 10px white;
+  background-color: black;
+  border-radius: 20px;
+  height: 140px;
+  padding: 50px;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.card1 {
+  box-shadow: 0 0 50px black;
+  text-shadow: 0 0 10px white;
+  background-color: black;
+  border-radius: 20px;
+  height: 140px;
+  padding: 50px;
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: hsl(227.9,100%,48.3%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 0 10px white;
+}
+
+button:hover{
+  color: black;
+  background-color: hsl(207.4,100%,48.3%);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
